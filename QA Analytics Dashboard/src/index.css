@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LIGHT THEME */
+:root {
+  --bg: #f3f4f6;
+  --card: #ffffff;
+  --text: #111827;
+}
+
+/* DARK THEME */
+.theme-dark {
+  --bg: #111827;
+  --card: #1f2937;
+  --text: #ffffff;
+}
+
+/* BLUE THEME */
+.theme-blue {
+  --bg: #e0f2fe;
+  --card: #bae6fd;
+  --text: #0c4a6e;
+}
+
+/* PURPLE THEME */
+.theme-purple {
+  --bg: #f3e8ff;
+  --card: #e9d5ff;
+  --text: #4c1d95;
+}

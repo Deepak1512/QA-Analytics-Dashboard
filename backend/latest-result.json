@@ -1,0 +1,12 @@
+{
+  "total": 120,
+  "passed": 100,
+  "failed": 20,
+  "duration": 15,
+  "failedTests": [
+    {
+      "name": "Test1",
+      "reason": "Error"
+    }
+  ]
+}
