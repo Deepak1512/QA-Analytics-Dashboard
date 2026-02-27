@@ -39,12 +39,13 @@ app.get("/api/allure-summary", (req, res) => {
   }
 });
 
+/* TEST ROUTE */
+app.get("/test-route", (req, res) => {
+  res.json({ message: "Test route works" });
+});
+
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
-});
-
-app.get("/test-route", (req, res) => {
-  res.json({ message: "Test route works" });
 });
